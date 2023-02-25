@@ -976,13 +976,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/swagger-ui-express@npm:^4.1.2":
-  version: 4.1.2
-  resolution: "@types/swagger-ui-express@npm:4.1.2"
+"@types/swagger-ui-express@npm:^4.1.3":
+  version: 4.1.3
+  resolution: "@types/swagger-ui-express@npm:4.1.3"
   dependencies:
     "@types/express": "*"
     "@types/serve-static": "*"
-  checksum: 9051955b77843af78f75383b609916cb074d3b8eda496d0b1e9a3f137438982922eaf6dde3c24f2d837e5dc400559fe1e26a22347fa7872bb2aa3c62ada9a71f
+  checksum: 1c990fa8c158f699c5443245383daef2c4b47efce715c105e67f9b88447cf23663774393fdeea7d5a6e97a83d6959b09129f19c4abca64abdb7db74517162295
   languageName: node
   linkType: hard
 
@@ -2313,7 +2313,7 @@ __metadata:
   dependencies:
     "@types/express": ^4.17.11
     "@types/jest": ^26.0.20
-    "@types/swagger-ui-express": ^4.1.2
+    "@types/swagger-ui-express": ^4.1.3
     "@types/uuid": ^8.3.0
     "@typescript-eslint/eslint-plugin": ^4.16.1
     "@typescript-eslint/parser": ^4.16.1
@@ -2328,6 +2328,7 @@ __metadata:
     jest: ^26.6.3
     prettier: ^2.2.1
     supertest: ^6.1.3
+    swagger-ui-express: ^4.6.1
     ts-jest: ^26.5.3
     ts-node-dev: ^1.1.6
     typescript: ^4.2.2
@@ -7043,6 +7044,24 @@ __metadata:
     has-flag: ^4.0.0
     supports-color: ^7.0.0
   checksum: e4f430c870a258c9854b8bd7f166a9c1e76e3b851da84d4399d6a8f1d4a485e4ec36c16455dde80acf06c86e7c0a6df76ed22b6a4644a6ae3eced8616b3f21b5
+  languageName: node
+  linkType: hard
+
+"swagger-ui-dist@npm:>=4.11.0":
+  version: 4.16.0
+  resolution: "swagger-ui-dist@npm:4.16.0"
+  checksum: 66c4479bfcb33575676cce2400b1d3f1cc3ae5e7d7eccbe5a277e0d4e0dbcaa49b8c3f0d92dd762a16186bed1154ef075e0164c6c9ec5f223c9f40639bae9909
+  languageName: node
+  linkType: hard
+
+"swagger-ui-express@npm:^4.6.1":
+  version: 4.6.1
+  resolution: "swagger-ui-express@npm:4.6.1"
+  dependencies:
+    swagger-ui-dist: ">=4.11.0"
+  peerDependencies:
+    express: ">=4.0.0"
+  checksum: 28a4e4b38130ae6241b67a692f26e33eaaf4e1a2ebe2eba574bfd56dded026169a702b638cf5feee9e929395327a112bfc32dde7204883b3b3bee8ad3c1817af
   languageName: node
   linkType: hard
 
